@@ -1,4 +1,4 @@
 requests
 riotwatcher
-tkinter
+tk
 customtkinter
