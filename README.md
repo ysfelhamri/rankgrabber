@@ -10,7 +10,7 @@ A Simple League of Legends Rank Grabber
  6. The result will be in output.txt
 
 # About 
-This program uses the Riotwatcher api to get data from riotgames then puts it in a usable form in output.txt so it can be used as a stream overlay for example.
+This program uses the Riotwatcher API to get data from riotgames then puts it in a usable form in output.txt so it can be used as a stream overlay for example.
 Customtkinter is used for the GUI and its elements.
 
 # Disclaimer
