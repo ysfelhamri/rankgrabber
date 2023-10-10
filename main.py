@@ -56,7 +56,7 @@ def callapi():
         showerr(3)
         return
 
-    lolw=LolWatcher(api_key.read())
+    lolw=LolWatcher(api_key.read().strip())
     try:
         lolw.summoner.by_name(region, name)
     except ApiError as err:
