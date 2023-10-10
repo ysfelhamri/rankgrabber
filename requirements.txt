@@ -1,4 +1,4 @@
 requests
 riotwatcher
 tk
-customtkinter==4.5.5
+customtkinter
