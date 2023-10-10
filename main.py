@@ -17,7 +17,7 @@ errdis = ["Success","api_key.txt doesn't exist \n or can't be opened","Invalid a
 ,"Invalid name","output.txt can't be created","No internet","Unknown error"]
 
 def showerr(errindx):
-    dis.config(text = errdis[errindx])
+    dis.configure(text = errdis[errindx])
     dis.place(relx=0.5, rely=0.9, anchor=tkinter.CENTER)
 
 def callapi():
@@ -31,7 +31,7 @@ def callapi():
 
     if dis.winfo_viewable():
         if dis.__getattribute__("text_color") != "Red":
-            dis.config(text_color = "Red")
+            dis.configure(text_color = "Red")
         dis.place_forget()
 
 
@@ -96,7 +96,7 @@ def callapi():
             txt = [disrnk['summonerName'],"\n",disrnk['tier']," ",disrnk['rank']," ",str(disrnk['leaguePoints'])," LP","\n",str(disrnk["wins"]),'W/',str(disrnk["losses"]),'L']
             output.writelines(txt)
 
-    dis.config(text_color= "Green") 
+    dis.configure(text_color= "Green") 
     showerr(0)
 
 
