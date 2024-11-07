@@ -6,7 +6,7 @@ A Simple League of Legends Rank Grabber
  2. Launch cmd, cd to ./rankgrabber-main, then "pip install -r requirements.txt"
  3. Get an api key from https://developer.riotgames.com/ , put it in api_key.txt
  4. Launch main.py using Python
- 5. Type your username, select your region  and queue type
+ 5. Type your username and tag then select your region and queue type
  6. The result will be in output.txt
 
 # About 
